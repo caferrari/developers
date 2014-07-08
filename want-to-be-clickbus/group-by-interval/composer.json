@@ -1,0 +1,21 @@
+{
+    "name": "clickbus/group-by-interval",
+    "description": "Group numbers by interval",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos André Ferrari",
+            "email": "caferrari@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "php": ">=5.4",
+        "phpunit/phpunit": "*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "ClickBus\\Pooler\\": "src/Pooler/"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "clickbus/cash-machine",
+    "description": "A simple cash machine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos André Ferrari",
+            "email": "caferrari@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "php": ">=5.4",
+        "phpunit/phpunit": "*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "ClickBus\\CashMachine\\": "src/CashMachine/"
+        }
+    }
+}
